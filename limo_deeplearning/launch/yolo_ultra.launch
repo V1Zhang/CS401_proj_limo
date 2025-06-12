@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find limo_bringup)/launch/limo_start.launch" />
+    <node name="yolo_detect_lane" pkg="limo_deeplearning" type="yolo_lane.py" output="screen" />
+    <node name="yolo_follow_lane" pkg="limo_deeplearning" type="yolo_ultra_run.py" output="screen" />
+</launch>

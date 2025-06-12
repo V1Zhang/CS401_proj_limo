@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find astra_camera)/launch/dabai_u3.launch" />
+
+    <node name="detect_traffic_light" pkg="limo_deeplearning" type="traffic_light.py" output="screen" />
+</launch>

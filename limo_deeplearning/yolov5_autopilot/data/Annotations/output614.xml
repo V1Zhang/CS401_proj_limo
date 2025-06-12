@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<doc>
+	<path>F:\jupyter\data\34567\output614.jpg</path>
+	<outputs>
+		<object>
+			<item>
+				<name>Ultra_Zero</name>
+				<bndbox>
+					<xmin>532</xmin>
+					<ymin>294</ymin>
+					<xmax>604</xmax>
+					<ymax>430</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name>Ultraman</name>
+				<bndbox>
+					<xmin>452</xmin>
+					<ymin>290</ymin>
+					<xmax>512</xmax>
+					<ymax>418</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name>Ultra_Tiga</name>
+				<bndbox>
+					<xmin>376</xmin>
+					<ymin>292</ymin>
+					<xmax>434</xmax>
+					<ymax>410</ymax>
+				</bndbox>
+			</item>
+		</object>
+	</outputs>
+	<time_labeled>1641354100719</time_labeled>
+	<labeled>true</labeled>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+</doc>

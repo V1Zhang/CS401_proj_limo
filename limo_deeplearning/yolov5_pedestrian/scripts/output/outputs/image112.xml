@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<doc>
+	<path>E:\limo_deeplearning\yolov5_pedestrian\scripts\output\image112.jpg</path>
+	<outputs>
+		<object>
+			<item>
+				<name>altman</name>
+				<bndbox>
+					<xmin>105</xmin>
+					<ymin>296</ymin>
+					<xmax>159</xmax>
+					<ymax>454</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name>altman</name>
+				<bndbox>
+					<xmin>198</xmin>
+					<ymin>297</ymin>
+					<xmax>248</xmax>
+					<ymax>457</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name>altman</name>
+				<bndbox>
+					<xmin>305</xmin>
+					<ymin>293</ymin>
+					<xmax>347</xmax>
+					<ymax>456</ymax>
+				</bndbox>
+			</item>
+		</object>
+	</outputs>
+	<time_labeled>1646805759137</time_labeled>
+	<labeled>true</labeled>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+</doc>

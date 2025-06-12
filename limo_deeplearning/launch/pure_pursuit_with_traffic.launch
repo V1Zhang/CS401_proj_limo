@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- 启动 pure_pursuit 节点 -->
+    <node name="pure_pursuit" pkg="agilex_pure_pursuit" type="pure_pursuit" output="screen">
+        <rosparam file="$(find agilex_pure_pursuit)/param/param.yaml" command="load" />
+    </node>
+
+    <!-- 启动红绿灯检测节点 -->
+    <node name="yolo_traffic_light" pkg="limo_deeplearning" type="yolo_tra.py" output="screen" />
+    
+    <!-- 启动相机节点 -->
+    <include file="$(find astra_camera)/launch/dabai_u3.launch" />
+
+    <!-- 启动 rviz -->
+    <node name="rviz" pkg="rviz" type="rviz" />
+
+    <!-- 启动图像显示节点 -->
+    <node name="image_view" pkg="image_view" type="image_view">
+        <remap from="image" to="/camera/rgb/image_raw" />
+    </node>
+
+    <!-- 启动红绿灯检测结果图像显示 -->
+    <node name="traffic_light_view" pkg="image_view" type="image_view">
+        <remap from="image" to="/traffic_light_image" />
+    </node>
+</launch> 

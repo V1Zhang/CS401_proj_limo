@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<doc>
+	<path>F:\jupyter\data\34567\output302.jpg</path>
+	<outputs>
+		<object>
+			<item>
+				<name>D</name>
+				<bndbox>
+					<xmin>358</xmin>
+					<ymin>275</ymin>
+					<xmax>433</xmax>
+					<ymax>382</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name>C</name>
+				<bndbox>
+					<xmin>212</xmin>
+					<ymin>272</ymin>
+					<xmax>289</xmax>
+					<ymax>384</ymax>
+				</bndbox>
+			</item>
+		</object>
+	</outputs>
+	<time_labeled>1640854430870</time_labeled>
+	<labeled>true</labeled>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+</doc>

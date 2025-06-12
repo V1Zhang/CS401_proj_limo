@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<doc>
+	<path>F:\jupyter\data\limo_image\output168.jpg</path>
+	<outputs>
+		<object>
+			<item>
+				<name>r_turn</name>
+				<bndbox>
+					<xmin>346</xmin>
+					<ymin>311</ymin>
+					<xmax>388</xmax>
+					<ymax>338</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name>trc_light</name>
+				<bndbox>
+					<xmin>498</xmin>
+					<ymin>130</ymin>
+					<xmax>632</xmax>
+					<ymax>354</ymax>
+				</bndbox>
+			</item>
+		</object>
+	</outputs>
+	<time_labeled>1641279683744</time_labeled>
+	<labeled>true</labeled>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+</doc>

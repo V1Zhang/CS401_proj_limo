@@ -1,0 +1,7 @@
+<launch>
+    <include file="$(find limo_bringup)/launch/limo_start.launch" />
+    <include file="$(find astra_camera)/launch/astra_rgb.launch" />
+
+    <node name="detect_lane" pkg="limo_deeplearning" type="detect_lane.py" output="screen" />
+    <node name="back" pkg="limo_deeplearning" type="back.py" output="screen" />
+</launch>

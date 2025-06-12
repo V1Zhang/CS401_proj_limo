@@ -1,0 +1,18 @@
+  class:name
+  0:   r_turn
+  1:   trc_light
+  2:   Ultraman
+  3:   Ultra_Tiga
+  4:   Ultra_Zero
+  5:   garage
+  6:   1
+  7:   2
+  8:   3
+  9:   4
+  10:  A
+  11:  B
+  12:  C
+  13:  D
+  14:  STOP
+  15:  limo
+  16:  gyhome

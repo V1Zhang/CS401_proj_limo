@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<doc>
+	<path>F:\jupyter\data\limo_image\output68.jpg</path>
+	<outputs>
+		<object>
+			<item>
+				<name>r_turn</name>
+				<bndbox>
+					<xmin>316</xmin>
+					<ymin>310</ymin>
+					<xmax>358</xmax>
+					<ymax>331</ymax>
+				</bndbox>
+			</item>
+		</object>
+	</outputs>
+	<time_labeled>1641280120880</time_labeled>
+	<labeled>true</labeled>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+</doc>
