@@ -101,9 +101,9 @@ Pure Pursuit算法作为系统的核心路径跟踪模块，通过计算车辆�
 
 | 文件名 | 功能描述 | 技术要点 |
 |--------|----------|----------|
-| `pure_pursuit.cpp` | 实现Pure Pursuit路径跟踪算法 | 前瞻点计算、转向角控制、PID调节 |
+| `pure_pursuit.cpp` | 实现路径跟踪算法 | 路径跟踪、视觉系统耦合、控制响应 |
 | `record_path.cpp` | 记录车辆运行轨迹 | TF变换监听、路径点采样、文件存储 |
-| `detect_zebra.py` | 检测斑马线并控制停车 | 图像分割、白色像素统计、冷却机制 |
+| `detect_zebra.py` | 检测斑马线 | 图像分割、白色像素统计、冷却机制 |
 | `traffic_light_detector.py` | 识别红绿灯状态 | HSV颜色空间、轮廓检测、状态判断 |
 
 
